@@ -1,0 +1,122 @@
+*
+{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    background-image:url("hdddd.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+.face
+{
+    display:flex;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background:white;
+}
+.right-eye
+{
+display: flex;
+position: absolute;
+width:50px ;
+height:50px ;
+background:white ;
+border:5px solid black ;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+margin-top: -20px;
+margin-right: -80px;
+
+}
+.right-eye-ball
+{
+display: flex;
+position: absolute;
+width: 30px ;
+height:  30px ;
+background:black ;
+display: flex;
+border-radius: 50%;   
+margin-bottom: -10px;
+margin-left: -10px;
+}
+.left-eye
+{
+    display: flex;
+    position: absolute;
+    width:50px ;
+    height:50px ;
+    background:white ;
+    border:5px solid black ;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -80px;
+}
+.left-eye-ball
+{
+    display: flex;
+    position: absolute;
+    width:30px ;
+    height:30px ;
+    background:black;
+    display: flex;
+    border-radius: 50%;   
+    margin-bottom: -10px;
+    margin-right: -10px;
+}
+.mouth
+{
+    width:80px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 50%;
+    margin-bottom: -80px;
+    position: absolute;
+}
+.tongue
+{
+    height: 50px;
+    width:30px;
+    background: red;
+    border-radius:50px 50px 100% 100%; 
+    margin-bottom: -40px;
+}
+.face:hover   .right-eye-ball
+{
+    margin: 0;
+}
+.face:hover   .left-eye-ball
+{
+    margin: 0;
+}
+.face:hover   .mouth
+{
+    height: 10px;
+}
+.face:hover   .tongue
+{
+    display: none;
+}
+
+
